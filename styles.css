@@ -1,0 +1,85 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+/* Header */
+header {
+  background-color: #2c3e50; /* Dark Blue */
+  color: White;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation */
+
+/* Sections */
+section {
+  padding: 40px;
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #3498db; /* Blue border */
+}
+
+
+
+/* Projects */
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.project {
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #8e44ad; /* Purple */
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project:hover {
+  background-color: #9b59b6; /* Lighter Purple */
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50; /* Dark Blue */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.profile-pic {
+  width: 250px; /* Increase size */
+  height: 250px; /* Keep it square */
+  border-radius: 50%; /* Make it round */
+  object-fit: cover; /* Ensure it looks good */
+  display: block;
+  margin: 20px auto; /* Center it */
+  border: 5px solid #333; /* Optional: Add a border */
+}
+
